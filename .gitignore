@@ -1,0 +1,13 @@
+.gradle/
+build/
+.idea/
+*.iml
+out/
+run/
+.fabric/
+.DS_Store
+Thumbs.db
+libs/
+pack-src/
+libs/
+pack-src/

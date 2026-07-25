@@ -1,0 +1,377 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "cases": [
+      {
+        "when": "vscasino:card_10_clubs",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vscasino:item/card_10_clubs"
+        }
+      },
+      {
+        "when": "vscasino:card_10_diamonds",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vscasino:item/card_10_diamonds"
+        }
+      },
+      {
+        "when": "vscasino:card_10_hearts",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vscasino:item/card_10_hearts"
+        }
+      },
+      {
+        "when": "vscasino:card_10_spades",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vscasino:item/card_10_spades"
+        }
+      },
+      {
+        "when": "vscasino:card_2_clubs",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vscasino:item/card_2_clubs"
+        }
+      },
+      {
+        "when": "vscasino:card_2_diamonds",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vscasino:item/card_2_diamonds"
+        }
+      },
+      {
+        "when": "vscasino:card_2_hearts",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vscasino:item/card_2_hearts"
+        }
+      },
+      {
+        "when": "vscasino:card_2_spades",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vscasino:item/card_2_spades"
+        }
+      },
+      {
+        "when": "vscasino:card_3_clubs",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vscasino:item/card_3_clubs"
+        }
+      },
+      {
+        "when": "vscasino:card_3_diamonds",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vscasino:item/card_3_diamonds"
+        }
+      },
+      {
+        "when": "vscasino:card_3_hearts",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vscasino:item/card_3_hearts"
+        }
+      },
+      {
+        "when": "vscasino:card_3_spades",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vscasino:item/card_3_spades"
+        }
+      },
+      {
+        "when": "vscasino:card_4_clubs",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vscasino:item/card_4_clubs"
+        }
+      },
+      {
+        "when": "vscasino:card_4_diamonds",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vscasino:item/card_4_diamonds"
+        }
+      },
+      {
+        "when": "vscasino:card_4_hearts",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vscasino:item/card_4_hearts"
+        }
+      },
+      {
+        "when": "vscasino:card_4_spades",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vscasino:item/card_4_spades"
+        }
+      },
+      {
+        "when": "vscasino:card_5_clubs",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vscasino:item/card_5_clubs"
+        }
+      },
+      {
+        "when": "vscasino:card_5_diamonds",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vscasino:item/card_5_diamonds"
+        }
+      },
+      {
+        "when": "vscasino:card_5_hearts",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vscasino:item/card_5_hearts"
+        }
+      },
+      {
+        "when": "vscasino:card_5_spades",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vscasino:item/card_5_spades"
+        }
+      },
+      {
+        "when": "vscasino:card_6_clubs",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vscasino:item/card_6_clubs"
+        }
+      },
+      {
+        "when": "vscasino:card_6_diamonds",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vscasino:item/card_6_diamonds"
+        }
+      },
+      {
+        "when": "vscasino:card_6_hearts",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vscasino:item/card_6_hearts"
+        }
+      },
+      {
+        "when": "vscasino:card_6_spades",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vscasino:item/card_6_spades"
+        }
+      },
+      {
+        "when": "vscasino:card_7_clubs",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vscasino:item/card_7_clubs"
+        }
+      },
+      {
+        "when": "vscasino:card_7_diamonds",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vscasino:item/card_7_diamonds"
+        }
+      },
+      {
+        "when": "vscasino:card_7_hearts",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vscasino:item/card_7_hearts"
+        }
+      },
+      {
+        "when": "vscasino:card_7_spades",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vscasino:item/card_7_spades"
+        }
+      },
+      {
+        "when": "vscasino:card_8_clubs",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vscasino:item/card_8_clubs"
+        }
+      },
+      {
+        "when": "vscasino:card_8_diamonds",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vscasino:item/card_8_diamonds"
+        }
+      },
+      {
+        "when": "vscasino:card_8_hearts",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vscasino:item/card_8_hearts"
+        }
+      },
+      {
+        "when": "vscasino:card_8_spades",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vscasino:item/card_8_spades"
+        }
+      },
+      {
+        "when": "vscasino:card_9_clubs",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vscasino:item/card_9_clubs"
+        }
+      },
+      {
+        "when": "vscasino:card_9_diamonds",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vscasino:item/card_9_diamonds"
+        }
+      },
+      {
+        "when": "vscasino:card_9_hearts",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vscasino:item/card_9_hearts"
+        }
+      },
+      {
+        "when": "vscasino:card_9_spades",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vscasino:item/card_9_spades"
+        }
+      },
+      {
+        "when": "vscasino:card_ace_clubs",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vscasino:item/card_ace_clubs"
+        }
+      },
+      {
+        "when": "vscasino:card_ace_diamonds",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vscasino:item/card_ace_diamonds"
+        }
+      },
+      {
+        "when": "vscasino:card_ace_hearts",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vscasino:item/card_ace_hearts"
+        }
+      },
+      {
+        "when": "vscasino:card_ace_spades",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vscasino:item/card_ace_spades"
+        }
+      },
+      {
+        "when": "vscasino:card_jack_clubs",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vscasino:item/card_jack_clubs"
+        }
+      },
+      {
+        "when": "vscasino:card_jack_diamonds",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vscasino:item/card_jack_diamonds"
+        }
+      },
+      {
+        "when": "vscasino:card_jack_hearts",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vscasino:item/card_jack_hearts"
+        }
+      },
+      {
+        "when": "vscasino:card_jack_spades",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vscasino:item/card_jack_spades"
+        }
+      },
+      {
+        "when": "vscasino:card_king_clubs",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vscasino:item/card_king_clubs"
+        }
+      },
+      {
+        "when": "vscasino:card_king_diamonds",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vscasino:item/card_king_diamonds"
+        }
+      },
+      {
+        "when": "vscasino:card_king_hearts",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vscasino:item/card_king_hearts"
+        }
+      },
+      {
+        "when": "vscasino:card_king_spades",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vscasino:item/card_king_spades"
+        }
+      },
+      {
+        "when": "vscasino:card_queen_clubs",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vscasino:item/card_queen_clubs"
+        }
+      },
+      {
+        "when": "vscasino:card_queen_diamonds",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vscasino:item/card_queen_diamonds"
+        }
+      },
+      {
+        "when": "vscasino:card_queen_hearts",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vscasino:item/card_queen_hearts"
+        }
+      },
+      {
+        "when": "vscasino:card_queen_spades",
+        "model": {
+          "type": "minecraft:model",
+          "model": "vscasino:item/card_queen_spades"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/paper"
+    }
+  }
+}

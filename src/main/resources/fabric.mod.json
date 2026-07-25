@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "vscasino",
+  "version": "${version}",
+  "name": "VanillaSkills Casino",
+  "description": "Adds a casino to the VanillaSkills skill screen: slots, blackjack and video poker, played with Quest Shards. Fully server-side - vanilla clients can play with nothing installed.",
+  "authors": ["Andrewwwwwwwwwwwwwww"],
+  "license": "All Rights Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["io.github.andrewwwwwwwwwwwwwww.vscasino.VsCasino"]
+  },
+  "contact": {
+    "homepage": "https://github.com/Andrewwwwwwwwwwwwwww/vscasino",
+    "sources": "https://github.com/Andrewwwwwwwwwwwwwww/vscasino",
+    "issues": "https://github.com/Andrewwwwwwwwwwwwwww/vscasino/issues"
+  },
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "fabric-api": ">=0.148.2",
+    "minecraft": "~26.1.2",
+    "vanillaskills": ">=1.7.6"
+  }
+}
