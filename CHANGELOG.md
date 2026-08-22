@@ -1,5 +1,10 @@
 # VanillaSkills Casino Changelog
 
+## [1.0.1] - 2026-08-22
+
+### Fixed
+- **Gold blocks rendered with no texture in the inventory.** The pack overrides `gold_block` so a slots icon can ride on it, and its fallback pointed at `minecraft:item/gold_block` — a model that does not exist, because gold block is a block item and its model lives under `models/block/`. Every other override in the pack was already correct; `gold_nugget` worked precisely because a nugget is a real item.
+
 ## [1.0.0] - 2026-07-24
 
 ### Added

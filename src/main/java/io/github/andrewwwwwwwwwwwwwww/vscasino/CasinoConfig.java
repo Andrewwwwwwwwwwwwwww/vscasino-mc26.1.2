@@ -23,8 +23,8 @@ public class CasinoConfig {
     private static volatile CasinoConfig active = new CasinoConfig();
 
     private static final String DEFAULT_RP_URL =
-            "https://github.com/Andrewwwwwwwwwwwwwww/vscasino/releases/download/v1.0.0/VSCasino-TexturePack.zip";
-    private static final String DEFAULT_RP_SHA1 = "ab139a5f6c40799e2b10bfcaf252a53210fc1961";
+            "https://github.com/Andrewwwwwwwwwwwwwww/vscasino/releases/download/v1.0.1/VSCasino-TexturePack.zip";
+    private static final String DEFAULT_RP_SHA1 = "923243e61bdb12c6df427f3c7a2f39b484c6c144";
 
     // ---- wagering ------------------------------------------------------------------------
 
