@@ -8,8 +8,8 @@ clients can play with nothing installed and no resource pack.
 
 ## Requirements
 
-- Minecraft **26.2**, **Fabric** with Fabric API
-- **VanillaSkills 1.7.5 or newer** (the casino button hooks into its skill screen)
+- Minecraft **26.1.2**, **Fabric** with Fabric API
+- **VanillaSkills 1.7.5 or newer**, including 2.x (the casino button hooks into its skill screen)
 
 ## Getting in
 
