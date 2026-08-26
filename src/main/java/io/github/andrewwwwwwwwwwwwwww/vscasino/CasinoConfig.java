@@ -26,6 +26,15 @@ public class CasinoConfig {
             "https://github.com/Andrewwwwwwwwwwwwwww/vscasino/releases/download/v1.0.1/VSCasino-TexturePack.zip";
     private static final String DEFAULT_RP_SHA1 = "923243e61bdb12c6df427f3c7a2f39b484c6c144";
 
+    /**
+     * Default pack URLs from older releases, auto-upgraded to the current default on load. A config
+     * written under an old version keeps its stored URL forever otherwise — which is exactly how the
+     * v1.0.0 pack (whose gold_block fallback pointed at a model that does not exist) kept being pushed
+     * by servers that had long since updated the jar. A hand-set custom URL is never touched.
+     */
+    private static final java.util.Set<String> SUPERSEDED_RP_URLS = java.util.Set.of(
+            "https://github.com/Andrewwwwwwwwwwwwwww/vscasino/releases/download/v1.0.0/VSCasino-TexturePack.zip");
+
     // ---- wagering ------------------------------------------------------------------------
 
     /** Smallest allowed stake, in Quest Shards. */
@@ -193,6 +202,14 @@ public class CasinoConfig {
                 if (Files.exists(path)) {
                     CasinoConfig loaded = GSON.fromJson(Files.readString(path), CasinoConfig.class);
                     if (loaded != null) cfg = loaded;
+                    // Upgrade a stored default pack URL from an older release, and persist the swap so
+                    // the file reflects what is actually pushed.
+                    if (cfg.resourcePackUrl != null && SUPERSEDED_RP_URLS.contains(cfg.resourcePackUrl)) {
+                        cfg.resourcePackUrl = DEFAULT_RP_URL;
+                        cfg.resourcePackSha1 = DEFAULT_RP_SHA1;
+                        Files.writeString(path, GSON.toJson(cfg));
+                        VsCasino.LOGGER.info("casino.json pointed at a superseded texture pack; upgraded to {}", DEFAULT_RP_URL);
+                    }
                 } else {
                     Files.createDirectories(path.getParent());
                     Files.writeString(path, GSON.toJson(cfg));

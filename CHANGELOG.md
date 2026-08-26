@@ -1,5 +1,10 @@
 # VanillaSkills Casino Changelog
 
+## [1.0.2] - 2026-08-26
+
+### Fixed
+- **The 1.0.1 gold-block fix never reached servers configured under 1.0.0.** The pack URL and SHA-1 are stored in `casino.json`, so a server whose config predated 1.0.1 kept pushing the old pack — the one whose broken `gold_block` fallback stripped every gold block's inventory texture — no matter which jar it ran. A stored default URL from a superseded release is now upgraded to the current pack on load (and saved back); a hand-set custom URL is never touched.
+
 ## [1.0.1] - 2026-08-22
 
 ### Fixed
